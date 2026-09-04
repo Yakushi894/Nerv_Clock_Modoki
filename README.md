@@ -7,7 +7,7 @@
 
 PHP / HTML / JavaScript のみ。データベース不要。共有サーバーに置いて開くだけです。
 
-**非公式のファンメイドです。** NERV / エヴァンゲリオン公式とは無関係です。
+**AI が作ったファンメイドです。** 公式とは無関係。コードは MIT なので、フォークも改変も自由にどうぞ。
 
 ![ヤシマ作戦クロック](screenshot.png)
 
@@ -19,14 +19,14 @@ PHP / HTML / JavaScript のみ。データベース不要。共有サーバー�
 
 | 項目 | 内容 |
 | --- | --- |
-| **Description** | エヴァンゲリオン「ヤシマ作戦」風の日本標準時デジタル時計。PHP / HTML / JS。NTP 同期、共有サーバーに置くだけ。 |
-| **Website** | 公開 URL（例: `https://kinokuni.ac/dopagaki/`） |
+| **Description** | エヴァンゲリオン「ヤシマ作戦」風の日本標準時デジタル時計。AI 製。PHP / HTML / JS。フォーク・改変自由。 |
+| **Website** | 公開 URL（例: `https://kinokuni.ac/test/`） |
 | **Topics** | `clock` `ntp` `php` `jst` `digital-clock` `evangelion` `yashima` `nerv` |
 
 短い英語版:
 
 ```
-NERV Yashima-op style JST clock. PHP/HTML/JS. NTP sync. Drop on shared hosting.
+AI-made NERV Yashima-op style JST clock. PHP/HTML/JS. Fork and remix freely.
 ```
 
 ---
@@ -76,7 +76,7 @@ GitHub から取る場合:
 git clone https://github.com/<user>/yashima-clock.git
 ```
 
-中身を FTP / ファイルマネージャーでサーバーへコピーしてください。
+中身を FTP / ファイルマネージャーでサーバーへコピーしてください。フォーク、改変、再配布、ぜんぶ OK です。
 
 ## NTP
 
@@ -129,8 +129,8 @@ timeout_ms = 2500
 | 画面が古い | スーパーリロード。`index.php` の `?v=` が変わっているか |
 | 時刻がずれる | 古い JS をキャッシュしている可能性。`assets/app.js` を上書きして再読み込み |
 
-## ライセンス・免責
+## ライセンス
 
-コードは [MIT License](LICENSE) です。設置・改変して使って構いません。
+コードは [MIT License](LICENSE) です。**フォーク・改変・再配布・商用、ぜんぶ自由。** クレジットも任意です。
 
-作品の意匠・名称は原作の権利者に帰属します。非営利のファン作品として公開してください。
+作品の意匠・名称は原作の権利者に帰属します。このリポジトリが権利を持つわけではありません。
