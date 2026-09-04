@@ -20,7 +20,7 @@ PHP / HTML / JavaScript のみ。データベース不要。共有サーバー�
 | 項目 | 内容 |
 | --- | --- |
 | **Description** | エヴァンゲリオン「ヤシマ作戦」風の日本標準時デジタル時計。PHP / HTML / JS。NTP 同期、共有サーバーに置くだけ。 |
-| **Website** | 公開 URL（例: `https://kinokuni.ac/test/`） |
+| **Website** | 公開 URL（例: `https://kinokuni.ac/dopagaki/`） |
 | **Topics** | `clock` `ntp` `php` `jst` `digital-clock` `evangelion` `yashima` `nerv` |
 
 短い英語版:
