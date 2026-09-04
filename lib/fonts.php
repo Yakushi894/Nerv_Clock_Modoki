@@ -72,7 +72,7 @@ function font_face_css(array $fonts): string
         }
     }
     if ($hasSans) {
-        $css .= '.eva-kicker,.eva-sub,.eva-nerv,.eva-chip{font-family:"YashimaUser",var(--font-sans);}';
+        $css .= '.eva-kicker,.eva-sub,.eva-nerv,.eva-chip,.eva-utc-row,.eva-utc-label{font-family:"YashimaUser",var(--font-sans);}';
     }
     if ($hasMono) {
         $css .= '.eva-org,.eva-en{font-family:"YashimaUserMono",var(--font-mono);}';
