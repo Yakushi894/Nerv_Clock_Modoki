@@ -7,7 +7,7 @@
 
 PHP / HTML / JavaScript のみ。データベース不要。共有サーバーに置いて開くだけです。
 
-**AI が作ったファンメイドです。** 公式とは無関係。コードは MIT なので、フォークも改変も自由にどうぞ。
+**AI で作ったファンメイドです。** 公式とは無関係。コードは MIT なので、フォークも改変も自由にどうぞ。
 
 ![ヤシマ作戦クロック](screenshot.png)
 
@@ -20,7 +20,7 @@ PHP / HTML / JavaScript のみ。データベース不要。共有サーバー�
 | 項目 | 内容 |
 | --- | --- |
 | **Description** | エヴァンゲリオン「ヤシマ作戦」風の日本標準時デジタル時計。AI 製。PHP / HTML / JS。フォーク・改変自由。 |
-| **Website** | 公開 URL（例: `https://kinokuni.ac/test/`） |
+| **Website** | 公開 URL（例: `https://kinokuni.ac/dopagaki/`） |
 | **Topics** | `clock` `ntp` `php` `jst` `digital-clock` `evangelion` `yashima` `nerv` |
 
 短い英語版:
