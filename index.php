@@ -11,7 +11,7 @@ $host = $_SERVER['HTTP_HOST'] ?? '';
 $path = strtok($_SERVER['REQUEST_URI'] ?? '/', '?') ?: '/';
 $shareUrl = ($https ? 'https' : 'http') . '://' . $host . $path;
 $shareHref = 'https://twitter.com/intent/tweet?text=' . rawurlencode('ヤシマ作戦クロック') . '&url=' . rawurlencode($shareUrl);
-$assetV = '20260904g';
+$assetV = '20260904i';
 $fontCss = font_face_css(discover_fonts());
 
 header('Content-Type: text/html; charset=utf-8');
@@ -97,7 +97,7 @@ header('Cache-Control: no-store');
         </div>
         <div class="eva-utc-row" id="utcRow">
           <div class="eva-fit is-row" id="utcFit">
-            <span>世界標準時</span>
+            <span class="eva-utc-label">世界標準時</span>
             <div class="inline-hms" id="utcTimer"></div>
           </div>
         </div>
@@ -109,7 +109,7 @@ header('Cache-Control: no-store');
           <strong id="footLocal">--:--:--</strong>
         </div>
         <div class="eva-stat">
-          <span>世界標準時 (UTC)</span>
+          <span class="eva-utc-label">世界標準時 (UTC)</span>
           <strong id="footUtc">--:--:--</strong>
         </div>
         <div class="eva-stat" id="footNtpStat">
@@ -134,7 +134,6 @@ header('Cache-Control: no-store');
           <button type="button" class="eva-chip is-accent" id="btnToggle">開始</button>
           <button type="button" class="eva-chip" id="btnReset">リセット</button>
         </div>
-        <span class="eva-count-flag"><?php echo htmlspecialchars($hitsLabel, ENT_QUOTES); ?></span>
         <a class="eva-chip" id="btnShare" href="<?php echo htmlspecialchars($shareHref, ENT_QUOTES); ?>" target="_blank" rel="noopener noreferrer">Xで共有</a>
         <button type="button" class="eva-chip" id="btnFull">全画面</button>
       </div>
